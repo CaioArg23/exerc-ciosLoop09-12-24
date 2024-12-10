@@ -1,0 +1,15 @@
+ #Escreva um programa que peça dois números inteiros e imprima todos os números inteiros entre eles.
+
+n1 = int(input('escreva um número inteiro'))
+n2 = int(input('escreva outro número inteio'))
+
+if n1 < n2:
+    for contador in range (n1+1, n2):
+        print (contador)
+
+elif n1> n2:
+    for contador in range (n2+1, n1):
+        print (contador)
+
+else:
+    print('Os números são iguais')
