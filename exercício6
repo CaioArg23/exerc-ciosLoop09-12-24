@@ -1,0 +1,11 @@
+#Escreva um programa que gere a tabuada de um número inteiro de 1 a 10, de acordo com a escolha da pessoa usuária. 
+#Como exemplo, para o número 2, a tabuada deve ser mostrada no seguinte formato:
+
+nE = int(input('digite um número entre 1 e 10 para saber a tabuada dele até o 10: '))
+
+if nE <=10:
+  for contador in range (1,11):
+    print (f'{nE} X {contador} = {nE*contador}')
+
+else: 
+  print ('tente novamente com um número entre 1 e 10: ')
